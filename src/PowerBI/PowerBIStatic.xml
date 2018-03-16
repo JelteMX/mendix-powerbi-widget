@@ -1,0 +1,22 @@
+<widget id="PowerBI.widget.PowerBIStatic" needsEntityContext="false" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>PowerBI Static</name>
+    <description>PowerBI Static Widget</description>
+    <icon/>
+    <properties>
+        <property key="reportID" type="string" required="true" defaultValue="">
+            <caption>Report ID</caption>
+            <category>Data Source</category>
+            <description></description>
+        </property>
+        <property key="embedURL" type="string" required="true" defaultValue="">
+            <caption>Embed URL</caption>
+            <category>Data Source</category>
+            <description>This is only the partial url, should end with 'reportEmbed', e.g. https://app.powerbi.com/reportEmbed</description>
+        </property>
+        <property key="embedToken" type="string" required="true" defaultValue="">
+            <caption>Embed Token</caption>
+            <category>Data Source</category>
+            <description></description>
+        </property>
+    </properties>
+</widget>
